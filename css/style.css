@@ -1,0 +1,120 @@
+body {
+    background-color: #EBFFFB;
+}
+
+h1 {
+    color: #10375c;
+}
+
+hr {
+    /*We remove the configuration*/
+    border-style: none;
+    /*we change the border for dots*/
+    border-top-style: dotted;
+    /*We change the color*/
+    /*and the size*/
+    border-color: #FF5858;
+    border-width: 5px;
+    width: 5%;
+    margin: 2rem;
+}
+
+.paragraph {
+    font-style: italic;
+    color: aliceblue;
+    width: 30%;
+    background-color: #844685;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.first-table {
+    display: flex;
+    /**dividio el blog y los testimoniales**/
+    justify-content: space-between;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 100px 5px;
+}
+
+.borders {
+    width: 40%;
+    border-radius: 70px;
+    border: solid 10px #202040;
+    box-shadow: 0 0 0 15px #FF6363, 0 0 0 20px #FFBD69;
+}
+
+.seccion-inferior {
+    display: flex;
+    align-items: center;
+    /**dividio el blog y los testimoniales**/
+    justify-content: center;
+}
+
+.seccion .blog {
+    /*arriba - abaj0o izquierda*/
+    margin: 0rem -30rem 1rem 20rem;
+}
+
+.seccion .new {
+    font-style: italic;
+    margin: 0rem 20rem 1rem 10rem;
+    color: aliceblue;
+    width: 300px;
+    background-color: #8566AA;
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.seccion-inferior-1 {
+    display: flex;
+    align-items: center;
+    /**dividio el blog y los testimoniales**/
+    justify-content: center;
+}
+
+.seccion-inferior-1 .new-2 {
+    font-style: italic;
+    margin: 0rem -5rem 1rem 10rem;
+    color: aliceblue;
+    width: 300px;
+    background-color: #8566AA;
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.seccion-inferior-1 .blog-2 {
+    margin: 0rem -15rem 1rem 7rem;
+}
+
+.seccion-inferior-3 {
+    display: flex;
+    align-items: center;
+    /**dividio el blog y los testimoniales**/
+    justify-content: center;
+}
+
+.seccion .blog-3 {
+    /*arriba - abaj0o izquierda*/
+    margin: 0rem -30rem 1rem 20rem;
+}
+
+.seccion .new-3 {
+    font-style: italic;
+    margin: 0rem 20rem 1rem 10rem;
+    color: aliceblue;
+    width: 300px;
+    background-color: #8566AA;
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.last h1 {
+    text-align: center;
+    color: #f3c623;
+}
